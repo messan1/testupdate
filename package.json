@@ -1,0 +1,25 @@
+{
+  "name": "electronjs",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/messan1/testupdate.git"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  }
+}
